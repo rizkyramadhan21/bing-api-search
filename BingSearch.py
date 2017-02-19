@@ -36,8 +36,6 @@ class Bing:
         query = urllib.quote(query)
         top = kwargs.get("top",self.top)
         search_type = kwargs.get("search_type",self.search_type)
-        market = kwargs.get("market",self.market)
-        adult = kwargs.get("adult",self.adult)
         user_agent = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; FDM; .NET CLR 2.0.50727; InfoPath.2; .NET CLR 1.1.4322)'
 
         # prepare the credentials
